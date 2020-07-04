@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  background-color: #100E17;
+  /* font-size: 62.5%; */
+}
+img{
+  max-width: 100%;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 0 auto;
+}
+.seccion{
+  padding-bottom: 2.2rem;
+}
+.contenedor_header{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 90vh;
+}
+.mi_foto {
+  background-image: url("./img/yo.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 40vh;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+h1{
+  padding: 2rem 0 0 0;
+  font-weight: 300; }
+  h1 span{
+    font-weight: 400;
+    color: red;
+  }
+  .intro p{
+    font-weight: 300;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,98 @@
+
+.programme__gruppe{
+    padding: 0em 1em 2em;
+
+}
+.programme__gruppe__title{
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: .5em;
+    font-size: 1.2em;
+}
+
+.programme__skill{
+    margin-bottom: 1em;
+    font-weight: 100;
+}
+
+.programme__name{
+    font-size: .8em;
+    padding: .5em 0;
+    color: $color3;
+    font-weight: 400;
+}
+
+.programme__barra {
+    position: relative;
+    width: 100%;
+    height: .6em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px #969696 inset, 0px 1px 0px #ffffff;
+}
+
+.progreso__barra {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(255,255,255,.7);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.programme__barra  span {
+    position: absolute;
+    top: -15px;
+    left: 100%;
+    margin-left: -10px;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+
+    color: $color1;
+    padding: .2em;
+    background: #F4F7EE;
+    border-radius: 50%;
+}
+
+.progreso__in{ animation: animate__in 0.9s ease-in-out;}
+
+@keyframes animate__in {
+    from{ width: 0%; }
+    to{ width: 90%; }
+}
+
+.progreso__ph{ animation: animate__ph 0.8s ease-in-out;}
+
+@keyframes animate__ph {
+    from{ width: 0%; }
+    to{ width: 80%; }
+}
+
+.progreso__il{ animation: animate__il 0.7s ease-in-out;}
+
+@keyframes animate__il {
+    from{ width: 0%; }
+    to{ width: 70%; }
+}
+
+.progreso__ht{ animation: animate__ht 0.95s ease-in-out;}
+
+@keyframes animate__ht {
+    from{ width: 0%; }
+    to{ width: 95%; }
+}
+
+.progreso__cs{ animation: animate__cs 0.85s ease-in-out;}
+
+@keyframes animate__cs {
+    from{ width: 0%; }
+    to{ width: 75%; }
+}
+
+.progreso__js{ animation: animate__js 0.8s ease-in-out;}
+
+@keyframes animate__js {
+    from{ width: 0%; }
+    to{ width: 20%; }
+}

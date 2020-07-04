@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'roboto', sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+#header {
+  background-color: #D25B55; }
+
+.logo_carlos {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding: .5em;
+  font-weight: lighter; }
+
+.monitor__img {
+  display: none; }
+
+.programme__gruppe {
+  padding: 0em 1em 2em; }
+
+.programme__gruppe__title {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: .5em;
+  font-size: 1.2em; }
+
+.programme__skill {
+  margin-bottom: 1em;
+  font-weight: 100; }
+
+.programme__name {
+  font-size: .8em;
+  padding: .5em 0;
+  color: #6F7B82;
+  font-weight: 400; }
+
+.programme__barra {
+  position: relative;
+  width: 100%;
+  height: .6em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 0px #969696 inset, 0px 1px 0px #ffffff;
+  box-shadow: 0px 1px 0px #969696 inset, 0px 1px 0px #ffffff; }
+
+.progreso__barra {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.programme__barra span {
+  position: absolute;
+  top: -15px;
+  left: 100%;
+  margin-left: -10px;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+  color: #D25B55;
+  padding: .2em;
+  background: #F4F7EE;
+  border-radius: 50%; }
+
+.progreso__in {
+  -webkit-animation: animate__in 0.9s ease-in-out;
+  animation: animate__in 0.9s ease-in-out; }
+
+@-webkit-keyframes animate__in {
+  from {
+    width: 0%; }
+  to {
+    width: 90%; } }
+
+@keyframes animate__in {
+  from {
+    width: 0%; }
+  to {
+    width: 90%; } }
+
+.progreso__ph {
+  -webkit-animation: animate__ph 0.8s ease-in-out;
+  animation: animate__ph 0.8s ease-in-out; }
+
+@-webkit-keyframes animate__ph {
+  from {
+    width: 0%; }
+  to {
+    width: 80%; } }
+
+@keyframes animate__ph {
+  from {
+    width: 0%; }
+  to {
+    width: 80%; } }
+
+.progreso__il {
+  -webkit-animation: animate__il 0.7s ease-in-out;
+  animation: animate__il 0.7s ease-in-out; }
+
+@-webkit-keyframes animate__il {
+  from {
+    width: 0%; }
+  to {
+    width: 70%; } }
+
+@keyframes animate__il {
+  from {
+    width: 0%; }
+  to {
+    width: 70%; } }
+
+.progreso__ht {
+  -webkit-animation: animate__ht 0.95s ease-in-out;
+  animation: animate__ht 0.95s ease-in-out; }
+
+@-webkit-keyframes animate__ht {
+  from {
+    width: 0%; }
+  to {
+    width: 95%; } }
+
+@keyframes animate__ht {
+  from {
+    width: 0%; }
+  to {
+    width: 95%; } }
+
+.progreso__cs {
+  -webkit-animation: animate__cs 0.85s ease-in-out;
+  animation: animate__cs 0.85s ease-in-out; }
+
+@-webkit-keyframes animate__cs {
+  from {
+    width: 0%; }
+  to {
+    width: 75%; } }
+
+@keyframes animate__cs {
+  from {
+    width: 0%; }
+  to {
+    width: 75%; } }
+
+.progreso__js {
+  -webkit-animation: animate__js 0.8s ease-in-out;
+  animation: animate__js 0.8s ease-in-out; }
+
+@-webkit-keyframes animate__js {
+  from {
+    width: 0%; }
+  to {
+    width: 20%; } }
+
+@keyframes animate__js {
+  from {
+    width: 0%; }
+  to {
+    width: 20%; } }
+
+.ausbildung__item {
+  padding: 0em 1em 2em; }
+
+.ausbildung__name {
+  font-size: 1em;
+  padding-bottom: 0.3em; }
+
+.ausbildung__date {
+  font-size: 0.9em;
+  color: #6F7B82;
+  font-weight: 400;
+  padding-bottom: 0.3em; }
+
+.ausbildung__schule {
+  margin-bottom: 0.3em; }
+
+.ausbildung__description {
+  font-size: 0.8em;
+  line-height: 1.3em; }
+
+.sprache__item {
+  margin: 0em auto;
+  position: relative; }
+
+.spanisch, .deutsch, .englisch {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%; }
+
+.spanisch {
+  background-color: rgba(112, 204, 210, 0.5);
+  position: absolute;
+  left: -7em;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.deutsch {
+  background-color: rgba(241, 153, 141, 0.5);
+  position: relative;
+  left: 3.5em;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.englisch {
+  background-color: rgba(246, 183, 105, 0.5);
+  position: relative;
+  top: -2.0em;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sprache__item h3 {
+  padding-top: 2.2em;
+  font-size: 1.2em;
+  text-align: center; }
+
+.sprache__item h4 {
+  padding-top: 0em;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 400; }
+
+.arbeit__item {
+  padding: 0em 1em 2em; }
+
+.arbeit__name {
+  font-size: 1em;
+  margin-bottom: 0.3em; }
+
+.arbeit__date {
+  font-size: 0.9em;
+  color: #6F7B82;
+  font-weight: 400;
+  margin-bottom: 0.3em; }
+
+.arbeit__firma {
+  margin-bottom: 0.5em; }
+
+ul li {
+  margin-left: 1em; }
+
+ul li span {
+  font-size: 0.9em; }
+
+.pug, .sass, .plesk, .prestashop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.5fr 1.5fr;
+  grid-template-columns: 1fr 0.5fr 1.5fr;
+  grid-gap: 20px 15px; }
+
+.logo__title {
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #D25B55; }
+
+.logo__definicion {
+  font-weight: 300;
+  font-size: 0.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.pug__img, .sass__img, .plesk__img, .prestashop__img {
+  opacity: 0.6; }
+
+.contenedor__logos {
+  margin-bottom: 1em; }
+
+.curriculum a {
+  font-size: 1em;
+  font-weight: 400;
+  color: #D25B55;
+  padding-bottom: 1em; }
+
+.curriculum span {
+  margin-left: 15px; }
+
+#footer {
+  background-color: #D25B55; }
+
+#datos {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  padding: 1em 0;
+  font-weight: lighter; }
+
+#datos h4 {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding: .3em 0; }
+
+#datos .email {
+  font-weight: 400; }
+
+html {
+  font-size: 20px; }
+
+body {
+  background-color: #EBF0DF; }
+
+#main {
+  margin: 1em; }
+
+.section__title {
+  font-size: 1em;
+  font-weight: 400;
+  color: #D25B55;
+  padding-bottom: 1em;
+  letter-spacing: 0.1em; }
+
+@media screen and (min-width: 768px) {
+  #header {
+    height: 180px;
+    font-size: 2.5em;
+    padding: 20px 0 0; }
+  #main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  .section__title {
+    font-size: 1.5em; }
+  .programme__gruppe {
+    margin: 0 2%;
+    width: 46%;
+    float: left; }
+  .contenedor__logos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 200px;
+    grid-template-rows: 200px;
+    padding: 0 0 2em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .pug, .sass, .plesk, .prestashop {
+    grid-auto-flow: column;
+    -ms-grid-columns: 70%;
+    grid-template-columns: 70%;
+    -ms-grid-rows: 0fr 0fr 0fr 0fr;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    grid-gap: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .logo__title, .logo__definicion {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+  .ausbildung__name {
+    font-weight: bold; }
+  .ausbildung__date {
+    font-size: 0.7em;
+    font-weight: 300; }
+  .ausbildung__schule {
+    font-weight: normal;
+    color: #6F7B82; }
+  .ausbildung__description {
+    font-size: 0.7em; }
+  .arbeit__name {
+    font-weight: bold; }
+  .arbeit__date {
+    font-size: 0.7em;
+    font-weight: 300; }
+  .arbeit__firma {
+    font-weight: normal; }
+  ul li span {
+    font-size: 0.7em; } }
+
+@media screen and (min-width: 1200px) {
+  #header {
+    /* height: 20vh; */
+    font-size: 3em; }
+  #main {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto; }
+  .programme__gruppe {
+    margin: 1em 5%;
+    width: 35%;
+    float: left; }
+  .programme__name {
+    font-size: 1em; }
+  .pug, .sass, .plesk, .prestashop {
+    -ms-grid-columns: 50%;
+    grid-template-columns: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+
+$color1: #D25B55;       // ladrillo
+$color2: #A2D0CD;      // tuquesa
+$color3: #6F7B82;   // gris oscuro
+$color4: #EBF0DF;     // gris claro
+$font: roboto, sans-serif;
+
+@import "componentes/base";
+@import "componentes/header";
+@import "componentes/kenntnisse";
+@import "componentes/ausbildung";
+@import "componentes/sprache";
+@import "componentes/arbeit";
+@import "componentes/andere_kenntnisse";
+@import "componentes/herunterladen";
+@import "componentes/footer";
+
+html {
+  font-size: 20px;
+}
+
+body {
+    background-color: $color4;
+}
+
+#main{
+    margin: 1em;
+}
+
+.section__title{
+    font-size: 1em;
+    font-weight: 400;
+    color: $color1;
+    padding-bottom: 1em;
+    letter-spacing: 0.1em;
+}
+
+// Tablet 610px Responsiv - Inicio
+// Tablet 610px Responsiv - Inicio
+@media screen and (min-width:610px){
+    #header {
+    height: 20vh;
+    font-size: 2.5em;
+    padding: 20px 0 0;}
+
+    #main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;}
+
+    .section__title{ font-size: 1.5em;}
+
+
+    //Kenntnisse
+        .programme__gruppe{
+        margin: 0 2%;
+        width: 46%;
+        float: left;}
+
+    // Inicio - Andere Kenntnisse
+    .contenedor__logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        padding: 0 0 2em;
+        align-items: center;}
+
+    .pug, .sass, .plesk, .prestashop{
+       // border: 1px solid red;
+        grid-auto-flow: column;
+        grid-template-columns: 70%;
+        grid-template-rows: 0fr 0fr 0fr 0fr;
+        grid-gap: 0;
+        justify-content: center;}
+
+    .logo__title, .logo__definicion{
+        justify-content: center;
+        text-align: center;}
+    // Fin - Andere Kenntnisse
+
+    //Ausbildung
+    .ausbildung__name{ font-weight: bold;}
+    .ausbildung__date{font-size: 0.7em; font-weight: 300;}
+    .ausbildung__schule{font-weight: normal;color: $color3;}
+    .ausbildung__description{font-size: 0.7em;}
+    //Ausbildung
+
+    //Arbeit
+    .arbeit__name{ font-weight: bold;}
+    .arbeit__date{font-size: 0.7em; font-weight: 300;}
+    .arbeit__firma{font-weight: normal;}
+    ul li span{font-size: 0.7em;}
+    //Arbeit
+}  // Fin 678px
+
+
+// Inicio 1200px
+@media screen and (min-width:1200px){
+
+    #header { font-size: 3em; }
+
+    #main{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+    //Kenntnisse
+    .programme__gruppe{
+        margin: 1em 5%;
+        width: 35%;
+        float: left;}
+    .programme__name{font-size: 1em;}
+    //Kenntnisse
+
+    //Andere Kenntnisse
+    .pug, .sass, .plesk, .prestashop{
+//        border: 1px solid blue;
+        grid-template-columns: 50%;
+        justify-content: center;}
+//    .programme__barra {height: .6em;}
+    //Andere Kenntnisse
+
+}  // Fin 1200px

@@ -1,0 +1,28 @@
+.pug, .sass, .plesk, .prestashop{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1.5fr;
+    grid-gap: 20px 15px;
+}
+
+
+.logo__title {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: $color1;
+
+}
+.logo__definicion{
+    font-weight: 300;
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+}
+
+.pug__img, .sass__img, .plesk__img, .prestashop__img{
+    opacity: 0.6;
+}
+
+.contenedor__logos{
+  margin-bottom: 1em;
+}

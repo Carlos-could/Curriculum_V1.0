@@ -1,0 +1,47 @@
+.sprache__item{
+    margin: 0em auto;
+    position: relative;
+}
+
+.spanisch, .deutsch, .englisch{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+.spanisch{
+    background-color:  rgba(112,204,210,.5);
+    position: absolute;
+    left: -7em;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.deutsch{
+    background-color: rgba(241,153,141,.5);
+    position: relative;
+    left: 3.5em;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.englisch{
+    background-color: rgba(246,183,105,.5);
+    position: relative;
+    top: -2.0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sprache__item h3{
+    padding-top: 2.2em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.sprache__item h4{
+    padding-top: 0em;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 400;
+}
