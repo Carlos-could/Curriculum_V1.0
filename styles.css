@@ -313,7 +313,15 @@ h1{
      .logo img{ height: 60px; }
   }
 
+ /* --------------portafolie */
 
+ .portafolie-inhalte{
+     margin: 0 auto;
+ }
+@media (min-width: 768px) {
+    display: flex;
+
+}
 /* --------------Ausbildung */
 .ausbildung-item{
   margin-top: 2rem;
