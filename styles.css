@@ -314,13 +314,25 @@ h1{
   }
 
  /* --------------portafolie */
-
+.portafolie{
+     background-color: #fff;
+}
  .portafolie-inhalte{
-     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     margin-top: 2rem;
+     gap: 3rem
  }
 @media (min-width: 768px) {
-    display: flex;
-
+     .portafolie-inhalte{
+          flex-direction: row;
+     }
+}
+.projekt{
+     margin: 0 auto;
+}
+.projekt-img{
+     margin: .5rem;
 }
 /* --------------Ausbildung */
 .ausbildung-item{
